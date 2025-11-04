@@ -1,16 +1,13 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CrowdSparkHero from "./components/WalkingPeepsHero";
-import PricingPage from './pages/Pricing';
+import Skiper19 from "./components/Skiper19"
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<CrowdSparkHero />} />
-        <Route path="/pricing" element={<PricingPage />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      {/* Your other content */}
+      <Skiper19 />
+      {/* More content */}
+    </div>
   )
 }
 
-export default App;
+export default App
